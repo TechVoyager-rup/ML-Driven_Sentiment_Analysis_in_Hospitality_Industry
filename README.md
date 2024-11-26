@@ -31,3 +31,20 @@ The dataset used contains hotel reviews with ratings and textual feedback. Revie
    ```bash
    git clone https://github.com/TechVoyager-rup/ML-Driven_Sentiment_Analysis_in_Hospitality_Industry.git
    cd ML-Driven_Sentiment_Analysis_in_Hospitality_Industry
+
+Usage
+Preprocessing & Model Training:
+
+Reviews are preprocessed using NLP techniques like tokenization, stopword removal, and lemmatization.
+Sentiment analysis models (SVM, Logistic Regression, Random Forest) are trained to predict the sentiment of new reviews.
+Prediction:
+
+Input new reviews into the model to predict whether they are positive or negative.
+Example
+Input Review:
+"Absolutely fantastic experience at Taj City Centre Kolkata! The property is beautifully maintained and situated in a very convenient location."
+
+Output Sentiment:
+SVM Prediction: Good Review
+Logistic Regression Prediction: Good Review
+Random Forest Prediction: Good Review
